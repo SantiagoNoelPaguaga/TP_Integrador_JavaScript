@@ -89,10 +89,10 @@ function validarResumen() {
     let total;
 
     if(categoria === "1"){
-        total = cantidad * 200 * 0.85;
+        total = cantidad * 200 * 0.2;
     }
     if(categoria === "2"){
-        total = cantidad * 200 * 0.85;
+        total = cantidad * 200 * 0.5;
     }
     if(categoria === "3"){
         total = cantidad * 200 * 0.85;
