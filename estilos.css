@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+header nav {
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+}
+
+#carouselprop {
+    margin: 0;
+    width: 100%;
+}
+
+.carousel {
+    height: 770px;
+    filter: brightness(70%);
+    object-fit: cover;
+}
+
+.carousel-item img{
+    height: 770px;
+    object-fit: cover;
+    object-position: 25% 73%;
+  }
+
+.carousel-caption {
+    position: absolute;
+    bottom: 15%;
+    right: 7%;
+}
+
+.form-floating textarea {
+    height: 100px;
+}
+
+.formato {
+    font-size: small;
+}
+
+.no-gutters {
+    margin: 0 !important;
+}
+
+.footer {
+    background-color: #1d3e51;
+    flex-shrink: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+.content {
+    flex: 1;
+  }
+ 
+.tarjeta {
+  width: 13.4rem;
+  margin: 0.2rem;
+}
+
+.tarjeta h6 {
+  font-size: 0.79rem;
+}
+
+.encabezado p {
+  margin-bottom: 0 !important;
+}
+
+.margenSup {
+  margin-top: 1rem;
+}
+
+.pad {
+  padding-left: 0.3rem !important;
+}
+
+.total {
+  height: 3.5rem;
+  background-color: #cce5ff;
+}
+
+.btnColor {
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn:hover {
+  background-color: yellow;
+}
+
+.btn:disabled {
+  background-color: gray;
+  color: white;
+}
+
+.mensajeError {
+  display: block;
+  color: red;
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  padding-left: 0.25rem;
+}
+
+.letra {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.llave {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.llave span {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.cardEstudianteTrue {
+  background-color: #0d6efd;
+}
+
+.cardTraineeTrue {
+  background-color: #198754;
+}
+
+.cardJuniorTrue {
+  background-color: #FFC107;
+}
+
+@media (max-width: 458px) {
+    .footer a {
+      font-size: 10px; 
+    }
+
+    .ancho {
+      width: 20rem;
+    }
+
+    .anchoEmail {
+      width: 20rem;
+    }
+
+    .mensajeError {
+      width: 20rem;
+    }
+  }
+
+  @media (min-width: 458px) and (max-width: 767px) {
+    .footer a {
+      font-size: 11px; 
+    }
+
+    .ancho {
+      width: 11.4rem;
+    }
+
+    .anchoEmail {
+      width: 24rem;
+    }
+
+    .mensajeError {
+      width: 11.4rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .footer a {
+      font-size: 12px; 
+    }
+
+    .ancho {
+      width: 20.1rem;
+    }
+
+    .anchoEmail {
+      width: 41.7rem;
+    }
+
+    .mensajeError {
+      width: 20.1rem;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .footer a {
+      font-size: 16px; 
+    }
+
+    .ancho {
+      width: 20.1rem;
+    }
+
+    .anchoEmail {
+      width: 41.7rem;
+    }
+
+    .mensajeError {
+      width: 20.1rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .footer a {
+      font-size: 20px; 
+    }
+
+    .ancho {
+      width: 20.1rem;
+    }
+
+    .anchoEmail {
+      width: 41.7rem;
+    }
+
+    .mensajeError {
+      width: 20.1rem;
+    }
+  }
