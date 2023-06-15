@@ -36,7 +36,7 @@ header nav {
 .carousel-caption {
     position: absolute;
     bottom: 15%;
-    right: 7%;
+    right: 15%;
 }
 
 .form-floating textarea {
